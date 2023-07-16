@@ -1,0 +1,8 @@
+# name: Test Pipeline
+# on: [push]
+# jobs:
+#   test:
+#     runs-on: ubuntu-22.04
+#     steps:
+#       - run: |
+#           echo "${GITHUB_SHA::7}"
